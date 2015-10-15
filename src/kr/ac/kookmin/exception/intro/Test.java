@@ -1,23 +1,16 @@
-package kc.ac.kookmin.exception.intro;
+package kr.ac.kookmin.exception.intro;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class Test {
-	public static void main(String[] args){
-		Trade a = new Trade();
-		a.readFile();
-	}
-}
-
-class Trade{
+class AAA{
 	
 	public void readFile(){
 		String Text = "";
 		FileInputStream fis = null;
 		try {
-			fis = new FileInputStream("/Users/mindong/Desktop/java/Mobile_Programming2015/src/kr/ac/kookmin/exception/intro/a.text");
+			fis = new FileInputStream("/Users/user/workspace/6th/src/kr/ac/kookmin/exception/intro/a.text");
 			int i;
 			while((i = fis.read()) != -1){
 				Text = Text + (char)i;
@@ -39,3 +32,11 @@ class Trade{
 		}
 	}
 }
+
+public class Test {
+	public static void main(String[] args){
+		AAA a = new AAA();
+		a.readFile();
+	}
+}
+

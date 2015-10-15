@@ -1,4 +1,4 @@
-package kc.ac.kookmin.exception.transaction;
+package kr.ac.kookmin.exception.transaction;
 
 class Bank {
 	private int balance = 1000;

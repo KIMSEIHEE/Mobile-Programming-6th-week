@@ -1,4 +1,4 @@
-package kc.ac.kookmin.exception.transaction;
+package kr.ac.kookmin.exception.transaction;
 
 public class Test {
 
@@ -9,4 +9,3 @@ public class Test {
 	}
 
 }
-
